@@ -52,6 +52,15 @@ const Footer = () => {
                                 <span className="">6566 US-67 Suite 99, San Angelo, TX 76901</span>
 
                             </div>
+                            <div className="flex  items-center gap-x-2 w-full flex-wrap ">
+
+                                <span className="">
+                                    <IoLocationSharp className="text-xl " />
+                                </span>
+                                <span className="font-semibold ">Midland: </span>
+                                <span className="">5301 Cholla Rd Suites 41 and 42, Midland, TX 79706</span>
+
+                            </div>
                             <div className="flex  items-center gap-x-2 w-full flex-wrap">
                                 <span className="">
 

@@ -70,6 +70,15 @@ const ContactUs = () => {
                             <span className="text-white">6566 US-67 Suite 99, San Angelo, TX 76901</span>
 
                         </div>
+                        <div className="flex  items-center gap-x-2 w-full flex-wrap ">
+
+                            <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
+                                <IoLocationSharp className="text-xl sm:text-base text-white" />
+                            </span>
+                            <span className="font-semibold text-white">Midland: </span>
+                            <span className="text-white">5301 Cholla Rd Suites 41 and 42, Midland, TX 79706</span>
+
+                        </div>
                         <div className="flex  items-center gap-x-2 w-full flex-wrap">
                             <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
 
