@@ -53,7 +53,7 @@ const Hero = () => {
                 KJS Auto Hail Repair
               </h1>
               <h2 className="text-4xl text-center mt-6 xsm:text-3xl">
-                Your Trusted Source for Hail Damage Solutions
+                Your Trusted Source for Auto Hail Repair Solutions
               </h2>
               <a
                 href={`https://calendar.app.google/Kvq2tb5sNKmrq6su9`}
