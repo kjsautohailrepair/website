@@ -158,7 +158,7 @@ const ContactUs = () => {
                     </div> */}
         </div>
         {/* <div className="mt-10 flex justify-center items-center">
-                    <Link to={`https://calendar.app.google/Kvq2tb5sNKmrq6su9`} className="flex justify-center items-center w-40 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Book Free Consultation!</Link>
+                    <Link to={`https://calendar.app.google/Kvq2tb5sNKmrq6su9`} className="flex justify-center items-center w-96 h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Book Free Consultation!</Link>
                 </div> */}
       </div>
     </>
