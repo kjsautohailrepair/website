@@ -30,12 +30,10 @@ const MainBlogPage = () => {
 
         <div className="mt-10 flex justify-center items-center">
           <Link
-            to={`https://calendar.app.google/Kvq2tb5sNKmrq6su9`}
+            to={"/Contact"}
             className="flex justify-center items-center w-56 call_to_action h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white"
-            target="_blank" 
-            rel="noopener noreferrer"
           >
-            Book Free Consultation! &#x2197;
+            Book Free Consultation!
           </Link>
         </div>
 

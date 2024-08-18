@@ -25,7 +25,7 @@ const Hero = () => {
   //                     Your Trusted Source for Hail Damage Solutions
   //                 </h2>
 
-  //                 <Link to={"https://calendar.app.google/Kvq2tb5sNKmrq6su9"} className="w-56 call_to_action h-12 md:mx-auto flex justify-center items-center  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white" target="_blank" rel="noopener noreferrer">Book Free Consultation! &#x2197;</Link>
+  //                 <Link to={"https://calendar.app.google/Kvq2tb5sNKmrq6su9"} className="w-56 call_to_action h-12 md:mx-auto flex justify-center items-center  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Book Free Consultation!</Link>
   //             </div>
 
   //         </div>
@@ -59,12 +59,10 @@ const Hero = () => {
             Your Trusted Source for Auto Hail Repair Solutions
           </h2>
           <a
-            href={`https://calendar.app.google/Kvq2tb5sNKmrq6su9`}
+            href={"/Contact"}
             className="w-56 call_to_action h-12 md:mx-auto flex justify-center items-center mt-10 rounded-lg bg-[#f79f24] font-semibold text-white"
-            target="_blank" 
-            rel="noopener noreferrer"
           >
-            Book Free Consultation! &#x2197;
+            Book Free Consultation!
           </a>
         </div>
       </div>

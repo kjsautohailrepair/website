@@ -13,7 +13,79 @@ const ContactUs = () => {
         <div className="bg-contact_bg min-h-[400px] w-full flex justify-center items-center bg-cover bg-center">
           <h1 className="text-center text-4xl text-white">Contact Us</h1>
         </div>
+
+
+        {/* <!-- Google Calendar Appointment Scheduling begin --> */}
+        <iframe 
+          src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ34DqP7HuJwOktjCO724Df8si2bqCvv8alOV4pTn3kRBHheik7ThKGXIwhXJs2b2It2hn5ZxyNu?gv=true" 
+          style={{ border: '0', width: '100%', height: '2000px' }} 
+          title="Google Calendar Appointment Scheduling"
+        ></iframe>
+        {/* <!-- end Google Calendar Appointment Scheduling --> */}
+
+
         <div className="w-full md:w-11/12  md:flex-col mx-auto  flex justify-center min-h-[400px] my-6 mt-20 max-w-[1700px] rounded-lg">
+          <div className="w-5/12 bg-[#f79f24] rounded-lg sm:w-full min-h-full flex flex-col gap-y-14 justify-center pl-7 md:w-full md:py-10 md:gap-y-9">
+            <div className="flex  items-center gap-x-2 w-full flex-wrap ">
+              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
+                <IoLocationSharp className="text-xl sm:text-base text-white" />
+              </span>
+              <span className="font-semibold text-white">Springs </span>
+              <span className="text-white">
+                1670 Paonia St Suite 120, Colorado Springs, CO 80915
+              </span>
+            </div>
+            <div className="flex  items-center gap-x-2 w-full flex-wrap ">
+              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
+                <IoLocationSharp className="text-xl sm:text-base text-white" />
+              </span>
+              <span className="font-semibold text-white">San Angelo </span>
+              <span className="text-white">
+                6566 US-67 Suite 99, San Angelo, TX 76901
+              </span>
+            </div>
+            <div className="flex  items-center gap-x-2 w-full flex-wrap ">
+              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
+                <IoLocationSharp className="text-xl sm:text-base text-white" />
+              </span>
+              <span className="font-semibold text-white">Midland </span>
+              <span className="text-white">
+                5301 Cholla Rd Suites 41 and 42, Midland, TX 79706
+              </span>
+            </div>
+            <div className="flex  items-center gap-x-2 w-full flex-wrap">
+              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
+                <BsTelephoneFill className="text-xl sm:text-base text-white" />
+              </span>
+              <span className="font-semibold text-white">Phone Number</span>
+              <a className="text-white" href="tel:214-766-6176">
+                (214) 766-6176
+              </a>
+            </div>
+            <div className="flex  items-center gap-x-2 w-full flex-wrap">
+              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
+                <MdEmail className="text-xl sm:text-base text-white" />
+              </span>
+              <span className="font-semibold text-white">Email</span>
+              <a
+                className="text-white"
+                href="mailto:contact@kjsautohailrepair.com"
+              >
+                contact@kjsautohailrepair.com
+              </a>
+            </div>
+            <div className="flex  items-center gap-x-2 w-full flex-wrap">
+              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
+                <BiSolidTimeFive className="text-xl sm:text-base text-white" />
+              </span>
+              <span className="font-semibold text-white">Timing</span>
+              <span className="text-white"> Mon - Fri 9:00 - 5:00</span>
+              <br />
+              <span className="text-white">
+                <i>*Saturdays by appointment</i>
+              </span>
+            </div>
+          </div>
           <div className="w-5/12 h-full p-3 md:w-full px-9">
             <h2 className="text-2xl py-7">Get In Touch</h2>
             <div className="">
@@ -92,76 +164,13 @@ const ContactUs = () => {
               </form>
             </div>
           </div>
-          <div className="w-5/12 bg-[#f79f24] rounded-lg sm:w-full min-h-full flex flex-col gap-y-14 justify-center pl-7 md:w-full md:py-10 md:gap-y-9">
-            <div className="flex  items-center gap-x-2 w-full flex-wrap ">
-              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
-                <IoLocationSharp className="text-xl sm:text-base text-white" />
-              </span>
-              <span className="font-semibold text-white">Springs </span>
-              <span className="text-white">
-                1670 Paonia St Suite 120, Colorado Springs, CO 80915
-              </span>
-            </div>
-            <div className="flex  items-center gap-x-2 w-full flex-wrap ">
-              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
-                <IoLocationSharp className="text-xl sm:text-base text-white" />
-              </span>
-              <span className="font-semibold text-white">San Angelo </span>
-              <span className="text-white">
-                6566 US-67 Suite 99, San Angelo, TX 76901
-              </span>
-            </div>
-            <div className="flex  items-center gap-x-2 w-full flex-wrap ">
-              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
-                <IoLocationSharp className="text-xl sm:text-base text-white" />
-              </span>
-              <span className="font-semibold text-white">Midland </span>
-              <span className="text-white">
-                5301 Cholla Rd Suites 41 and 42, Midland, TX 79706
-              </span>
-            </div>
-            <div className="flex  items-center gap-x-2 w-full flex-wrap">
-              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
-                <BsTelephoneFill className="text-xl sm:text-base text-white" />
-              </span>
-              <span className="font-semibold text-white">Phone Number</span>
-              <a className="text-white" href="tel:214-766-6176">
-                (214) 766-6176
-              </a>
-            </div>
-            <div className="flex  items-center gap-x-2 w-full flex-wrap">
-              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
-                <MdEmail className="text-xl sm:text-base text-white" />
-              </span>
-              <span className="font-semibold text-white">Email</span>
-              <a
-                className="text-white"
-                href="mailto:contact@kjsautohailrepair.com"
-              >
-                contact@kjsautohailrepair.com
-              </a>
-            </div>
-            <div className="flex  items-center gap-x-2 w-full flex-wrap">
-              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
-                <BiSolidTimeFive className="text-xl sm:text-base text-white" />
-              </span>
-              <span className="font-semibold text-white">Timing</span>
-              <span className="text-white"> Mon - Fri 9:00 - 5:00</span>
-              <br />
-              <span className="text-white">
-                <i>*Saturdays by appointment</i>
-              </span>
-            </div>
-          </div>
           {/* Just a pic <div className="w-3/6 flex justify-center md:w-full">
                         <img src="/src/assets/contact.webp" className=" rounded-lg w-9/12 lg:w-11/12 md:w-8/12 h-6/6" alt="" loading='lazy'/>
                     </div> */}
         </div>
         {/* <div className="mt-10 flex justify-center items-center">
-                    <Link to={`https://calendar.app.google/Kvq2tb5sNKmrq6su9`} className="flex justify-center items-center w-56 call_to_action h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white"
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    >Book Free Consultation! &#x2197;</Link>
+                    <Link to={"/Contact"} className="flex justify-center items-center w-56 call_to_action h-12  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white"
+                    >Book Free Consultation!</Link>
                 </div> */}
       </div>
     </>
