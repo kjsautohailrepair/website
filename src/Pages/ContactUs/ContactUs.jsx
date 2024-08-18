@@ -18,7 +18,7 @@ const ContactUs = () => {
         {/* <!-- Google Calendar Appointment Scheduling begin --> */}
         <iframe 
           src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ34DqP7HuJwOktjCO724Df8si2bqCvv8alOV4pTn3kRBHheik7ThKGXIwhXJs2b2It2hn5ZxyNu?gv=true" 
-          style={{ border: '0', width: '100%', height: '2000px' }} 
+          style={{ border: '0', width: '100%', height: '1000px' }} 
           title="Google Calendar Appointment Scheduling"
         ></iframe>
         {/* <!-- end Google Calendar Appointment Scheduling --> */}
