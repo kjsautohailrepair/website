@@ -4,8 +4,12 @@ import { BiSolidTimeFive } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
 import NavBar from "../../Components/NavBar/NavBar";
 import { Link } from "react-router-dom";
+import { useEffect } from 'react';
 
 const ContactUs = () => {
+  useEffect(() => {
+    window.gtag('event', 'ads_conversion_Contact_Us_Page_1');
+  }, []);
   return (
     <>
       <NavBar />
