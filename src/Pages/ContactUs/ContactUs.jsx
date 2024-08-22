@@ -5,6 +5,7 @@ import { MdEmail } from "react-icons/md";
 import NavBar from "../../Components/NavBar/NavBar";
 import { Link } from "react-router-dom";
 import { useEffect } from 'react';
+import { FaInstagram, FaTwitter, FaMapMarkedAlt } from "react-icons/fa";
 
 const ContactUs = () => {
   useEffect(() => {
@@ -38,14 +39,11 @@ const ContactUs = () => {
               <span className="text-white">
                 1670 Paonia St Suite 120, Colorado Springs, CO 80915
               </span>
-            </div>
-            <div className="flex  items-center gap-x-2 w-full flex-wrap ">
-              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
-                <IoLocationSharp className="text-xl sm:text-base text-white" />
-              </span>
-              <span className="font-semibold text-white">San Angelo </span>
-              <span className="text-white">
-                6566 US-67 Suite 99, San Angelo, TX 76901
+              &nbsp;
+              <span>
+                  <a href="https://maps.app.goo.gl/V9e4i9mBBJT2ZiPW8" className=" text-xl " target="_blank" rel="noopener noreferrer">
+                      <FaMapMarkedAlt className="text-xl sm:text-base text-white" />
+                  </a>
               </span>
             </div>
             <div className="flex  items-center gap-x-2 w-full flex-wrap ">
@@ -55,6 +53,21 @@ const ContactUs = () => {
               <span className="font-semibold text-white">Midland </span>
               <span className="text-white">
                 5301 Cholla Rd Suites 41 and 42, Midland, TX 79706
+              </span>
+              &nbsp;
+              <span>
+                  <a href="https://maps.app.goo.gl/sdWnHEA7R4p1xrxd9" className=" text-xl " target="_blank" rel="noopener noreferrer">
+                      <FaMapMarkedAlt className="text-xl sm:text-base text-white" />
+                  </a>
+              </span>
+            </div>
+            <div className="flex  items-center gap-x-2 w-full flex-wrap ">
+              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
+                <IoLocationSharp className="text-xl sm:text-base text-white" />
+              </span>
+              <span className="font-semibold text-white">San Angelo </span>
+              <span className="text-white">
+                6566 US-67 Suite 99, San Angelo, TX 76901
               </span>
             </div>
             <div className="flex  items-center gap-x-2 w-full flex-wrap">
@@ -82,7 +95,7 @@ const ContactUs = () => {
               <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
                 <BiSolidTimeFive className="text-xl sm:text-base text-white" />
               </span>
-              <span className="font-semibold text-white">Timing</span>
+              <span className="font-semibold text-white">Hours</span>
               <span className="text-white"> Mon - Fri 9:00 - 5:00</span>
               <br />
               <span className="text-white">

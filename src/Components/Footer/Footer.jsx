@@ -41,6 +41,27 @@ const Footer = () => {
                                 </span>
                                 <span className="font-semibold ">Springs: </span>
                                 <span className="">1670 Paonia St Suite 120 Colorado Springs, CO 80915</span>
+                                &nbsp;
+                                <span>
+                                    <a href="https://maps.app.goo.gl/V9e4i9mBBJT2ZiPW8" className=" text-xl " target="_blank" rel="noopener noreferrer">
+                                        <FaMapMarkedAlt />
+                                    </a>
+                                </span>
+
+                            </div>
+                            <div className="flex  items-center gap-x-2 w-full flex-wrap ">
+
+                            <span className="">
+                                <IoLocationSharp className="text-xl " />
+                            </span>
+                            <span className="font-semibold ">Midland: </span>
+                            <span className="">5301 Cholla Rd Suites 41 and 42, Midland, TX 79706</span>
+                            &nbsp;
+                            <span>
+                                <a href="https://maps.app.goo.gl/sdWnHEA7R4p1xrxd9" className=" text-xl " target="_blank" rel="noopener noreferrer">
+                                    <FaMapMarkedAlt />
+                                </a>
+                            </span>
 
                             </div>
                             <div className="flex  items-center gap-x-2 w-full flex-wrap ">
@@ -50,15 +71,6 @@ const Footer = () => {
                                 </span>
                                 <span className="font-semibold ">San Angelo: </span>
                                 <span className="">6566 US-67 Suite 99, San Angelo, TX 76901</span>
-
-                            </div>
-                            <div className="flex  items-center gap-x-2 w-full flex-wrap ">
-
-                                <span className="">
-                                    <IoLocationSharp className="text-xl " />
-                                </span>
-                                <span className="font-semibold ">Midland: </span>
-                                <span className="">5301 Cholla Rd Suites 41 and 42, Midland, TX 79706</span>
 
                             </div>
                             <div className="flex  items-center gap-x-2 w-full flex-wrap">
@@ -101,9 +113,6 @@ const Footer = () => {
                             </a> */}
                             <a href="https://www.instagram.com/kjsautohailrepair" className="text-2xl text-[#1877F2]" target="_blank" rel="noopener noreferrer">
                                 <FaInstagram />
-                            </a>
-                            <a href="https://maps.app.goo.gl/V9e4i9mBBJT2ZiPW8" className="text-2xl text-[#1877F2]" target="_blank" rel="noopener noreferrer">
-                                <FaMapMarkedAlt />
                             </a>
                         </div>
                     </div>

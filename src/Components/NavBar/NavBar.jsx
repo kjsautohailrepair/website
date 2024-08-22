@@ -50,9 +50,6 @@ const NavBar = () => {
                     <a href="https://www.instagram.com/kjsautohailrepair" className=" text-xl " target="_blank" rel="noopener noreferrer">
                         <FaInstagram />
                     </a>
-                    <a href="https://maps.app.goo.gl/V9e4i9mBBJT2ZiPW8" className=" text-xl " target="_blank" rel="noopener noreferrer">
-                        <FaMapMarkedAlt />
-                    </a>
                     {/* <span className=" text-xl ">
                         <FaTwitter />
                     </span> */}

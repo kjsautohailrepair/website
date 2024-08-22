@@ -6,7 +6,7 @@ const ChooseUs = () => {
     <div className="bg-[#f8f9fd] pt-1 pb-10">
       <div className="w-7/12 mx-auto sm:w-11/12">
         <h1 className="text-5xl my-6 text-center text-[#f79f24] font-semibold">
-          Why Choose Us
+          Why KJS Auto Hail Repair
         </h1>
         <p className="text-xl sm:text-left text-center mt-3">
           When it comes to selecting an auto body shop for your vehicle's repair
