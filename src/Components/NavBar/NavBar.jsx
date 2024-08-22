@@ -84,7 +84,7 @@ const NavBar = () => {
                                 (isActive
                                     ? "md:bg-[#f79f24] md:py-4 md:px-9  md:rounded-md md:text-black text-[#f79f24]"
                                     : "") + " hover:text-[#f79f24] md:hover:text-black duration-150 "
-                            } >Service</NavLink>
+                            } >Services</NavLink>
                         </li>
                         <li>
                             <NavLink to={"/Contact"} onClick={() => setShow(false)} className={({ isActive }) =>
