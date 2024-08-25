@@ -74,6 +74,15 @@ const ContactUs = () => {
               <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
                 <BsTelephoneFill className="text-xl sm:text-base text-white" />
               </span>
+              <span className="font-semibold text-white">New Customers</span>
+              <a className="text-white" href="tel:214-766-6176">
+                (720) 928-6680
+              </a>
+            </div>
+            <div className="flex  items-center gap-x-2 w-full flex-wrap">
+              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
+                <BsTelephoneFill className="text-xl sm:text-base text-white" />
+              </span>
               <span className="font-semibold text-white">Phone Number</span>
               <a className="text-white" href="tel:214-766-6176">
                 (214) 766-6176

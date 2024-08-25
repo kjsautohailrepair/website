@@ -81,7 +81,15 @@ const Footer = () => {
 
                                     <BsTelephoneFill className="text-xl " />
                                 </span>
-                                <span className="font-semibold ">Phone Number</span>
+                                <span className="font-semibold ">New Customers</span>
+                                <a className="" href="tel:214-766-6176">(720) 928-6680</a>
+                            </div>
+                            <div className="flex  items-center gap-x-2 w-full flex-wrap">
+                                <span className="">
+
+                                    <BsTelephoneFill className="text-xl " />
+                                </span>
+                                <span className="font-semibold ">Shop</span>
                                 <a className="" href="tel:214-766-6176">(214) 766-6176</a>
                             </div>
                             <div className="flex  items-center gap-x-2 w-full flex-wrap">
