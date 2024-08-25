@@ -25,7 +25,7 @@ const Hero = () => {
   //                     Your Trusted Source for Hail Damage Solutions
   //                 </h2>
 
-  //                 <Link to={"https://calendar.app.google/Kvq2tb5sNKmrq6su9"} className="w-56 call_to_action h-12 md:mx-auto flex justify-center items-center  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Book Free Consultation!</Link>
+  //                 <Link to={"https://calendar.app.google/Kvq2tb5sNKmrq6su9"} className="w-56 call_to_action h-12 md:mx-auto flex justify-center items-center  mt-5 rounded-lg bg-[#f79f24] font-semibold text-white">Call us Today!!</Link>
   //             </div>
 
   //         </div>
@@ -58,12 +58,14 @@ const Hero = () => {
           <h2 className="text-4xl text-center mt-6 xsm:text-3xl">
             Your Trusted Source for Auto Hail Repair Solutions
           </h2>
-          <a
-            href={"/Contact"}
-            className="w-56 call_to_action h-12 md:mx-auto flex justify-center items-center mt-10 rounded-lg bg-[#f79f24] font-semibold text-white"
+          <div className="mt-10 flex justify-center items-center">
+          <button
+            className="flex justify-center items-center w-56 call_to_action h-12 mt-5 rounded-lg bg-[#f79f24] font-semibold text-white"
+            onClick={() => window.location.href = 'tel:720-928-6680'}
           >
-            Book Free Consultation!
-          </a>
+            Call us Today!
+          </button>
+        </div>
         </div>
       </div>
     </div>

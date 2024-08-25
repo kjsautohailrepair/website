@@ -81,22 +81,22 @@ const Footer = () => {
 
                                     <BsTelephoneFill className="text-xl " />
                                 </span>
-                                <span className="font-semibold ">New Customers</span>
-                                <a className="" href="tel:214-766-6176">(720) 928-6680</a>
+                                <span className="font-semibold ">New Customers:</span>
+                                <a className="" href="tel:720-928-6680">(720) 928-6680</a>
                             </div>
                             <div className="flex  items-center gap-x-2 w-full flex-wrap">
                                 <span className="">
 
                                     <BsTelephoneFill className="text-xl " />
                                 </span>
-                                <span className="font-semibold ">Shop</span>
+                                <span className="font-semibold ">Shop:</span>
                                 <a className="" href="tel:214-766-6176">(214) 766-6176</a>
                             </div>
                             <div className="flex  items-center gap-x-2 w-full flex-wrap">
                                 <span className="">
                                     <MdEmail className="text-xl " />
                                 </span>
-                                <span className="font-semibold ">Email</span>
+                                <span className="font-semibold ">Email:</span>
                                 <a className="" href='mailto:contact@kjsautohailrepair.com'>contact@kjsautohailrepair.com</a>
                             </div>
                             {/* <div className="flex  items-center gap-x-2 w-full flex-wrap">
