@@ -42,12 +42,12 @@ const Hero = () => {
       <img
         src={heroHome}
         alt="Hail repair in progress"
-        className="absolute top-0 left-0 w-full h-full object-cover bg-cover bg-center rounded-br-[30%]"
+        className="absolute top-0 left-0 w-full h-full object-cover bg-cover bg-center rounded-br-[30%] bg-opacity-75"
         loading="lazy"
       />
 
       {/* Content Overlay */}
-      <div className="relative z-10 bg-opacity-75 text-white">
+      <div className="relative z-10 text-white">
         {/* Navigation Bar */}
         <NavBar />
 
