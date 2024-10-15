@@ -41,7 +41,7 @@ const ContactUs = () => {
               </span>
               <span className="font-semibold text-white">Midland: </span>
               <span className="text-white">
-                5301 Cholla Rd Suites 41 and 42, Midland, TX 79706
+                3107 Antelope Trail Unit 4, Midland, TX, 79706
               </span>
               &nbsp;
               <span>
@@ -59,7 +59,7 @@ const ContactUs = () => {
                 6566 US-67 Suite 99, San Angelo, TX 76901
               </span>
             </div>
-            <div className="flex  items-center gap-x-2 w-full flex-wrap">
+            {/* <div className="flex  items-center gap-x-2 w-full flex-wrap">
               <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
                 <BsTelephoneFill className="text-xl sm:text-base text-white" />
               </span>
@@ -67,7 +67,7 @@ const ContactUs = () => {
               <a className="text-white" href="tel:214-766-6176">
                 (720) 928-6680
               </a>
-            </div>
+            </div> */}
             <div className="flex  items-center gap-x-2 w-full flex-wrap">
               <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
                 <BsTelephoneFill className="text-xl sm:text-base text-white" />

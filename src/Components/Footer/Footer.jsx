@@ -58,7 +58,7 @@ const Footer = () => {
                                 <IoLocationSharp className="text-xl " />
                             </span>
                             <span className="font-semibold ">Midland: </span>
-                            <span className="">5301 Cholla Rd Suites 41 and 42, Midland, TX 79706</span>
+                            <span className="">3107 Antelope Trail Unit 4, Midland, TX, 79706</span>
                             &nbsp;
                             <span>
                                 <a href="https://maps.app.goo.gl/sdWnHEA7R4p1xrxd9" className=" text-xl " target="_blank" rel="noopener noreferrer">
@@ -76,14 +76,14 @@ const Footer = () => {
                                 <span className="">6566 US-67 Suite 99, San Angelo, TX 76901</span>
 
                             </div>
-                            <div className="flex  items-center gap-x-2 w-full flex-wrap">
+                            {/* <div className="flex  items-center gap-x-2 w-full flex-wrap">
                                 <span className="">
 
                                     <BsTelephoneFill className="text-xl " />
                                 </span>
                                 <span className="font-semibold ">New Customers:</span>
                                 <a className="" href="tel:720-928-6680">(720) 928-6680</a>
-                            </div>
+                            </div> */}
                             <div className="flex  items-center gap-x-2 w-full flex-wrap">
                                 <span className="">
 
