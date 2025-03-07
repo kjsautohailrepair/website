@@ -1,13 +1,13 @@
+import { useEffect, useState, useRef } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom"
 import Logo from "../../assets/Logo.webp"
+import useClickOutsideDetector from "../../Hooks/useClickOutsideDetector"
+
 import { BiMenuAltRight } from "react-icons/bi";
-import { useEffect, useState, useRef } from "react";
-import { IoClose } from "react-icons/io5";
-import { IoLocationSharp } from "react-icons/io5"
+import { IoClose, IoLocationSharp } from "react-icons/io5";
 import { BsMailbox2, BsTelephoneFill } from "react-icons/bs";
 import { MdEmail } from 'react-icons/md';
-import useClickOutsideDetector from "../../Hooks/useClickOutsideDetector"
-import { FaFacebook, FaInstagram, FaTwitter, FaMapMarkedAlt } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTiktok, FaTwitter, FaMapMarkedAlt } from "react-icons/fa";
 
 const NavBar = () => {
     const [sticky, setSticky] = useState("static")
@@ -49,6 +49,9 @@ const NavBar = () => {
                     </a>
                     <a href="https://www.instagram.com/kjsautohailrepair" className=" text-xl " target="_blank" rel="noopener noreferrer">
                         <FaInstagram />
+                    </a>
+                    <a href="https://www.tiktok.com/@kjsautohailrepair" className=" text-xl " target="_blank" rel="noopener noreferrer">
+                        <FaTiktok />
                     </a>
                     {/* <span className=" text-xl ">
                         <FaTwitter />

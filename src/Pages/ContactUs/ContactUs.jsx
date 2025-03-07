@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
+import { useEffect } from 'react';
+import NavBar from "../../Components/NavBar/NavBar";
+
 import { IoLocationSharp } from "react-icons/io5";
 import { BsMailbox2, BsTelephoneFill } from "react-icons/bs";
 import { BiSolidTimeFive } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
-import NavBar from "../../Components/NavBar/NavBar";
-import { Link } from "react-router-dom";
-import { useEffect } from 'react';
 import { FaInstagram, FaTwitter, FaMapMarkedAlt } from "react-icons/fa";
 
 const ContactUs = () => {

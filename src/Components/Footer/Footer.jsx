@@ -5,6 +5,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { BsTelephoneFill } from "react-icons/bs";
 import { BiSolidTimeFive } from "react-icons/bi";
 import { FaInstagram, FaTwitter, FaMapMarkedAlt } from "react-icons/fa";
+import { PiTiktokLogo } from "react-icons/pi";
 import { MdEmail } from 'react-icons/md';
 const Footer = () => {
     return (
@@ -124,6 +125,9 @@ const Footer = () => {
                             </a> */}
                             <a href="https://www.instagram.com/kjsautohailrepair" className="text-2xl text-[#1877F2]" target="_blank" rel="noopener noreferrer">
                                 <FaInstagram />
+                            </a>
+                            <a href="https://www.tiktok.com/@kjsautohailrepair" className="text-2xl text-[#1877F2]" target="_blank" rel="noopener noreferrer">
+                                <PiTiktokLogo />
                             </a>
                         </div>
                     </div>
