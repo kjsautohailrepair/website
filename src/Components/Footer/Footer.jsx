@@ -53,6 +53,20 @@ const Footer = () => {
                                 </span>
 
                             </div>
+                                <div className="flex  items-center gap-x-2 w-full flex-wrap ">
+                                <span className="">
+                                    <IoLocationSharp className="text-xl " />
+                                </span>
+                                <span className="font-semibold ">College Station: </span>
+                                <span className="">4091 Ashley Ln #200, College Station, TX 77845</span>
+                                &nbsp;
+                                <span>
+                                    <a href="https://maps.app.goo.gl/hfdjLpEWgKgkjtE28" className=" text-xl " target="_blank" rel="noopener noreferrer">
+                                        <FaMapMarkedAlt />
+                                    </a>
+                                </span>
+
+                            </div>
                             <div className="flex  items-center gap-x-2 w-full flex-wrap ">
 
                             <span className="">

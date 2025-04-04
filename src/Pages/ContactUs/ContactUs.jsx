@@ -40,6 +40,21 @@ const ContactUs = () => {
               <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
                 <IoLocationSharp className="text-xl sm:text-base text-white" />
               </span>
+              <span className="font-semibold text-white">College Station: </span>
+              <span className="text-white">
+                4091 Ashley Ln #200, College Station, TX 77845
+              </span>
+              &nbsp;
+              <span>
+                  <a href="https://maps.app.goo.gl/hfdjLpEWgKgkjtE28" className=" text-xl " target="_blank" rel="noopener noreferrer">
+                      <FaMapMarkedAlt className="text-xl sm:text-base text-white" />
+                  </a>
+              </span>
+            </div>
+            <div className="flex  items-center gap-x-2 w-full flex-wrap ">
+              <span className="w-12 h-12 sm:w-10 sm:h-10  rounded-full flex justify-center items-center bg-[rgba(255_,255_,255_,0.2)]">
+                <IoLocationSharp className="text-xl sm:text-base text-white" />
+              </span>
               <span className="font-semibold text-white">Midland: </span>
               <span className="text-white">
                 3107 Antelope Trail Unit 4, Midland, TX, 79706
